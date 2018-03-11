@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 30px;
+    height: 100%;
+    font-family: calibri;
+    text-align: center;
+    border-image: 5px;
+    background-color: #ececec;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px;
+    width: auto;
+    background-image: url("plate-one.jpg");
+    background-size: cover;
+    display: center;
+    color: ;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+}
+
+nav {
+    background-color: #50474b;
+    color: white;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 800px;
+}
+
+section img {
+    margin-top: 20px;
+}
+
+footer {
+    clear: left;
+    padding: 10px;
+    background-color: #50474b;
+    color: white;
+    background: ;
+    text-align: ;
+}
+
+img {
+    height: 200px;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+
+.crop img {
+    height: 100%;
+    width: auto;
+}
+
+#img1 {
+    width: 750px;
+    height: auto;
+}
+
+#img2 {
+    width: 600px;
+    height: auto;
+}
